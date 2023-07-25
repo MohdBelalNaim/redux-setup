@@ -1,4 +1,5 @@
-export const countReducer=(state=100,action)=>{
+export const countReducer=(state=0,action)=>{
+
     
     switch(action.type){
         case "INCREASE":
